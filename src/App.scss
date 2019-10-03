@@ -1,0 +1,47 @@
+//Color code variables
+$blue: #077dc3;
+$purple: #5c3b8b;
+$white: #fff;
+$black: #000;
+$grey:#333;
+//Font-family variables
+$font-asap: 'Asap', sans-serif;
+$font-bitter: 'Bitter', serif;
+//Viewport variables
+$screen-md: 992px;
+$screen-lg: 1200px;
+$screen-ipad: 768px;
+$screen-xs: 320px;
+//Mixins
+@mixin set-wrapper($width-size) {
+  max-width: $width-size;
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+}
+
+@mixin breakpoint($screen-size){
+  @media (min-width: $screen-size) {
+    @content;
+  }
+}
+
+body {
+  font: 14px/18px $font-asap;
+  background: $white;
+  color: $grey;
+  @include breakpoint($screen-md) {
+    @include set-wrapper(1366px); 
+  }
+  img{
+    max-width:150px;
+    width:100%;
+    margin: 0 auto;
+  }
+  .brand-title{
+    font: 20px/24px $font-bitter;
+    font-weight: 700;
+    color: $purple;
+  }
+}
+

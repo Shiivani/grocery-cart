@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "font-awesome": "^4.7.0",
+    "gh-pages": "^2.1.1",
+    "homepage": "https://Shiivani.github.io/grocery-cart",
     "node-sass": "^4.12.0",
     "react": "^16.10.1",
     "react-dom": "^16.10.1",

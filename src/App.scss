@@ -10,7 +10,7 @@ $font-bitter: 'Bitter', serif;
 //Viewport variables
 $screen-md: 992px;
 $screen-lg: 1200px;
-$screen-ipad: 768px;
+$screen-sm: 768px;
 $screen-xs: 320px;
 //Mixins
 @mixin set-wrapper($width-size) {

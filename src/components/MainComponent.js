@@ -18,7 +18,6 @@ export default class Main extends Component {
                     <Route path="/cart" component={Cart} />
                     <Route component={Default} />
                 </Switch>
-                <Footer />
               </>  
             </div>
         )

@@ -19,7 +19,9 @@ $grey:#333;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
     width: 100%;
-    z-index: 3;
+    max-width:1366px;
+    margin:0 auto;
+    z-index: 10000;
     a {
         color: $grey;
     }
@@ -28,19 +30,27 @@ $grey:#333;
         padding: 0;
         list-style: none;
         overflow: hidden;
-        background-color: #fff;
         li {
+            font-size: 23px;
+            line-height: 33px;
             a {
                 display: block;
                 padding: 20px 20px;
-                border-right: 1px solid #f4f4f4;
                 text-decoration: none;
+                color:$white;
                 @include breakpoint($screen-md) {
                     padding: 20px 30px;
                 }
-                &:hover{
-                    background-color: #f4f4f4;
+                button{
+                    background:$blue;
+                    color:$white;
+                    font-size: 23px;
+                    border:none;
+                    .fa{
+                        padding-right:8px;
+                    }
                 }
+                
             }
             @include breakpoint($screen-md) {
                 float: left;

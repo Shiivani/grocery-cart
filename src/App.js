@@ -5,12 +5,11 @@ import { ProductProvider } from './context.js';
 import { BrowserRouter } from 'react-router-dom';
 
 class App extends Component {  
-
   render() {
     return (
       <ProductProvider>
         <BrowserRouter>
-          <div>    
+          <div className="app-container">    
             <Main/>
           </div>
         </BrowserRouter>

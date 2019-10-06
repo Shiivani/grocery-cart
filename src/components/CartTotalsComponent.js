@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 export default function CartTotal({value}) {
     const{ cartTotal , clearCart}=value;
+    
     return (
         <div>
             <div className="carttotal-container">

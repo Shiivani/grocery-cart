@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
 import Cart from './CartComponent';
 import { ProductConsumer } from '../context';
 import {Modal,ModalBody,ModalFooter,ModalHeader,Button} from 'reactstrap';
@@ -12,6 +11,7 @@ export default class Checkout extends Component {
             modal:false
         }
     }
+    
     toggle=()=> {
         this.setState(prevState => ({
           modal: !prevState.modal
@@ -26,7 +26,7 @@ export default class Checkout extends Component {
         return (
             <ProductConsumer>
             {(value) =>{
-          const {clearCart} =value;
+          const {cart, clearCart} =value;
           return(
            <>
             <Button color="danger" onClick={this.toggle}>Check out</Button>
@@ -36,7 +36,7 @@ export default class Checkout extends Component {
                 <Cart/>
             </ModalBody>
             <ModalFooter>
-                <Button color="primary" onClick={()=>{this.alertPayment();
+                <Button className={`${cart.length?"visible":"hidden"} `} color="primary"  onClick={()=>{this.alertPayment();
                 clearCart();}}>Proceed to Payment</Button>{' '}
                 <Button color="secondary" onClick={this.toggle}>Cancel</Button>
             </ModalFooter>

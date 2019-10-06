@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/grocery-cart/tree/develop/static/css/main.8ba600e9.chunk.css",
+    "main.js": "/grocery-cart/tree/develop/static/js/main.cd2a8f8c.chunk.js",
+    "main.js.map": "/grocery-cart/tree/develop/static/js/main.cd2a8f8c.chunk.js.map",
+    "runtime-main.js": "/grocery-cart/tree/develop/static/js/runtime-main.387efcbe.js",
+    "runtime-main.js.map": "/grocery-cart/tree/develop/static/js/runtime-main.387efcbe.js.map",
+    "static/css/2.a68b1733.chunk.css": "/grocery-cart/tree/develop/static/css/2.a68b1733.chunk.css",
+    "static/js/2.fd06ceae.chunk.js": "/grocery-cart/tree/develop/static/js/2.fd06ceae.chunk.js",
+    "static/js/2.fd06ceae.chunk.js.map": "/grocery-cart/tree/develop/static/js/2.fd06ceae.chunk.js.map",
+    "index.html": "/grocery-cart/tree/develop/index.html",
+    "precache-manifest.9660b7d4477999e640828fca6802fa2f.js": "/grocery-cart/tree/develop/precache-manifest.9660b7d4477999e640828fca6802fa2f.js",
+    "service-worker.js": "/grocery-cart/tree/develop/service-worker.js",
+    "static/css/2.a68b1733.chunk.css.map": "/grocery-cart/tree/develop/static/css/2.a68b1733.chunk.css.map",
+    "static/css/main.8ba600e9.chunk.css.map": "/grocery-cart/tree/develop/static/css/main.8ba600e9.chunk.css.map",
+    "static/media/font-awesome.min.css": "/grocery-cart/tree/develop/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/logo.svg": "/grocery-cart/tree/develop/static/media/logo.c7721a56.svg"
+  }
+}
